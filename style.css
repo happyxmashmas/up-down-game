@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 600px;
+  height: 80vh;
+  background-color: dodgerblue;
+  border-radius: 20px;
+}
+header {
+  margin: 0 auto 30px;
+  background-color: olivedrab;
+  border-radius: 30px;
+  width: 400px;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+}
+.main {
+  background-color: yellowgreen;
+  width: 400px;
+  height: 60%;
+  margin: 30px auto 0;
+  border-radius: 20px;
+}
+
+form {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+input {
+  width: 170px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 19px;
+}
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+#play_button {
+  background-color: green;
+}
+#reset_button {
+  background-color: tomato;
+}
+
+#result_area {
+  width: 300px;
+  height: 100px;
+  border: 2px dashed yellow;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 1px black;
+}
+span {
+  font-size: 18px;
+  color: tomato;
+  text-shadow: none;
+}
+#count_area {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-weight: bold;
+}
+@media screen and (max-width: 640px) {
+  .wrap,
+  header,
+  .main {
+    width: 380px;
+  }
+  .wrap {
+    height: 500px;
+  }
+  #result_area {
+    margin: 40px auto;
+  }
+}

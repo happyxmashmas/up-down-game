@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>숫자 맞추기 게임</h1>
+      </header>
+      <p>1부터 100가지의 숫자를 입력해 주세요~</p>
+      <div class="main">
+        <form action="#">
+          <input
+            type="number"
+            id="user_input"
+            autofocus
+            style="outline: none"
+          />
+          <button id="play_button">확인</button>
+          <button id="reset_button" onclick="window.location.reload()">
+            다시
+          </button>
+        </form>
+        <div id="result_area">UP & DOWN</div>
+      </div>
+      <div id="count_area">남은 기회 : 10회</div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
